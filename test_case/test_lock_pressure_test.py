@@ -26,7 +26,7 @@ class TestLockMethods():
         # self.gateway = Zgateway()
         # self.args = ["192.168.18.1", 1022, "zihome", "admin"]
         self.devId = "70b3d5058001ac16"
-        self.prodTypeId = "ZH-B0104"
+        self.prodTypeId = "ZH-B0204"
         self.add_pwd = AddLockPwd(self.devId, self.prodTypeId)
         self.modify_pwd = ModifyLockPsw(self.devId, self.prodTypeId)
         self.get_pwd = GetLockPwd(self.devId,self.prodTypeId)
